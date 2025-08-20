@@ -1,3 +1,5 @@
+<!--  NOTE: Requires Origin/Host https://salmon-tree-01da72103.2.azurestaticapps.net  -->
+
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
@@ -8,40 +10,11 @@
 </head>
 <body>
 <script>
-   TendforChatWidget.load({ 
-    baseURL: "https://tendforhosting.cloudspace.se/orange_euconslt.com",
-    id: 17,
-   title: "Tendfor Chat",   
-   subtitle: "Welcome to chat with us",    
-   fontFamily: "Oxanium", 
-   width: "500px",   
-   height: "650px", 
-   showScrollbar: true,   
-   logoSVG: "TendforLogo.svg",  
-   logoWidth: "50px",    
-   logoMargin: "5px 0px 0px 10px", 
-   chatButtonSVG: "chatbutton.svg",    
-   chatButtonWidth: "30px", 
-   chatButtonPositionX: "20px",   
-   chatButtonPositionY: "20px", 
-   badgePositionX: "0px",    
-   badgePositionY: "0px",  
-   formInputs: [   
-   {label: "",    
-   type: "text",      
-   id: "name",       
-   required: true,
-   },  
-   {  
-   label: "",  
-   type: "email",  
-   id: "email",       
-   required: true, 
-   validate: (value) => /^(?!.*\.\.)[a-zA-Z0-9._%+\-äöüßáéíóúñçàèìòùåæø]+@[azA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(value), 
-   validationMessage: "",}  
-   ] 
-   });
-   </script> 
+    TendforChatWidget.load({
+        baseURL: "https://tendforhosting.cloudspace.se/orange_euconslt.com",
+        id: 17
+    });
+</script>
  <main>
     <h1>Tendfor Frontend website</h1>
 </main>
